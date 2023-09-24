@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: toshota <toshota@student.42.fr>            +#+  +:+       +#+        */
+/*   By: toshota <toshota@student.42tokyo.jp>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/11 15:44:59 by toshota           #+#    #+#             */
-/*   Updated: 2023/06/13 13:06:54 by toshota          ###   ########.fr       */
+/*   Updated: 2023/09/24 15:16:58 by toshota          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <unistd.h> // read
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE (10)
+#  define BUFFER_SIZE 10
 # endif
 
 // get_next_line_utils.c
